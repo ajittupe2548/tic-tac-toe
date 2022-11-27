@@ -1,0 +1,40 @@
+.wrapper {
+    display: flex;
+}
+
+.details {
+    margin-left: 20px;
+    min-width: 160px;
+}
+
+.description {
+    font-size: 22px;
+}
+
+.squareContainer {
+    display: grid;
+    grid-template-columns: 50px 50px 50px;
+}
+
+.square {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    font-size: 26px;
+    font-weight: bold;
+    background-color: #d3eafd;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+}
+
+.resetBtn {
+    font-size: 22px;
+    margin-top: 20px;
+    width: 100%;
+    background: #e53012;
+    border: 1px solid #e53012;
+    border-radius: 3px;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+}
